@@ -10,17 +10,3 @@ ________________________________________________________________________________
 Installed size: 88 KB
 How to install: sudo apt install scalpel
 _________________________________________________________________________________________________________________________
-commands
-apt-get install scalpel
-man scalpel 
-vi /etc/scalpel/scalpel.conf
-[...]
-        pdf     y       5000000 %PDF  %EOF\x0d  REVERSE
-        pdf     y       5000000 %PDF  %EOF\x0a  REVERSE
-[...]
-scalpel /dev/sda1 -o <filename> 
-mount
-ls -la
-ls -l <filename>
-cat <filename>/audit.txt
-ls -l <filename>/pdf-0-0/
